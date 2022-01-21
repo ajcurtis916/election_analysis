@@ -40,9 +40,9 @@ Our analysis of the election by county shows:<br/>
 
 ## Resources
 * Data Source: election_results.csv (located in "resource" file)<br/>
-* Software: Python 3.7.6 64-bit, Visual Studio Code, Version: 1.61.0
+* Software: Python 3.7.6 64-bit, Visual Studio Code, Version: 1.63.2
 
 ## Challenge Summary
-The Python code created by our team for the current analysis can be implemented for future elections, pending correct removal and insertion of the necessary data files and pathways. Once all data from future election(s) are compiled into a csv file, the correct local pathway for import and saving must be input on lines 9 and 11.</br></br>
-If the Board prefers to assess different parameters than the voter turnout per county, etc., such variables may be swapped out for alternate data, such as political party turnout per county or per candidate.  This restructring will be more involved, requiring changes such as the variables on lines 21, 22, 31, 32, 33, 53, 112-114 to be adjusted, replaced on line 70, 73, 76, 79, 97, 99, 101, 104, 109, 117, 124 and the f-string statements on lines 105-106 and 119 to be changed accordingly.  This code will need further reworking if the data is not imported from a csv file.  You may contact us should you have any trouble during future implemetation.  
+Our Python code for the current analysis can be implemented for future elections, pending removal of the old data files and insertion of the new data files and pathways in our code. Once all data from future elections has been compiled into a new csv file, the correct local pathway for import and saving the analysis must be input on lines 9 and 11.</br></br>
+If the Board prefers to assess different or additional parameters, such as political party turnout per county or per candidate, our code's variables should be replaced with new variables to reference the alternate data.  Updating the code to account for these types of changes will be more involved.  The update would require adjustments to the variables on lines 21, 22, 31, 32, 33, 53, 112-114, replacement of the variables on line 70, 73, 76, 79, 97, 99, 101, 104, 109, 117, and 124 to match, and changing the f-string statements on lines 105-106 and 119 to correctly output statements that make sense for the new analysis.  This code will need further reworking if the data is not imported from a csv file.  You may contact us should you have any trouble during future implemetation.  
   
